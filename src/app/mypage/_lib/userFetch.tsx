@@ -151,7 +151,7 @@ export const userFetch = (isTrue: boolean, argId: number) => {
     };
 
     fetchId();
-  }, [argId, isTrue]);
+  }, [argId, isTrue,cookies.userId, process.env.NEXT_PUBLIC_API_URL]);
 
   return userData;
 };
