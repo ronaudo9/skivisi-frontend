@@ -10,7 +10,7 @@ URL:https://skivisi-frontend-i9onf0mqm-ronaudo9.vercel.app/
 
 ```bash
 git clone https://skivisi-frontend-i9onf0mqm-ronaudo9.vercel.app/
-cd frontend
+cd skivisi-frontend
 npm install
 npm run dev
 ```
